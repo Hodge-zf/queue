@@ -8,6 +8,10 @@ public abstract class SimulationEventQueue implements SimulationEventQueueInterf
         return simulationEventQueue;
       }*/
 
+      private double time;
+
+      private int size;
+
       public void add(SimulationEvent newEntry){
       }
 
